@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <input id="firstname"/> 
+    <button onclick="getVal()"> GetVal</button>
+    <select id="loca">
+        <option value="NewJersey"> NJ</option>
+        <option value="NewYork"> NY</option>
+        <option value="Florida"> FL</option>
+        <option value="California"> CA</option>
+    </select>
+
+
+<script>
+    function getVal(){
+        console.log(document.getElementById('firstname').value);
+        console.log(document.getElementById('loca').value);
+   
+    }
+</script>
+</body>
+</html>
